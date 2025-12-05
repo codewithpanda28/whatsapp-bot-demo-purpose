@@ -1,5 +1,3 @@
-2025/12/04-18:45:46.970 6e3c Creating DB C:\Users\codew\OneDrive\Desktop\whatsapp-bot\WhatsappBot\New folder\whatsapp-bot-demo-purpose\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
-2025/12/04-18:45:46.985 6e3c Reusing MANIFEST C:\Users\codew\OneDrive\Desktop\whatsapp-bot\WhatsappBot\New folder\whatsapp-bot-demo-purpose\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2025/12/04-18:45:46.986 6e3c Recovering log #4
-2025/12/04-18:45:46.986 6e3c Reusing old log C:\Users\codew\OneDrive\Desktop\whatsapp-bot\WhatsappBot\New folder\whatsapp-bot-demo-purpose\.wwebjs_auth\session\Default\Local Storage\leveldb/000004.log 
-2025/12/04-18:45:46.986 6e3c Delete type=2 #3
+2025/12/05-12:07:44.670 1d00 Reusing MANIFEST C:\Users\codew\OneDrive\Desktop\own startup company projects\whatsapp-bot\WhatsappBot\New folder\whatsapp-bot-demo-purpose\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2025/12/05-12:07:44.671 1d00 Recovering log #4
+2025/12/05-12:07:44.672 1d00 Reusing old log C:\Users\codew\OneDrive\Desktop\own startup company projects\whatsapp-bot\WhatsappBot\New folder\whatsapp-bot-demo-purpose\.wwebjs_auth\session\Default\Local Storage\leveldb/000004.log 
