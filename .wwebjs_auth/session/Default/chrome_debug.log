@@ -1,26 +1,26 @@
-[1205/122029.818:INFO:CONSOLE(0)] "Uncaught (in promise) UnknownError: Unexpected internal error.", source: https://web.whatsapp.com/sw.js (0)
-[1205/122030.087:INFO:CONSOLE(113)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yF/r/h_l1gN7jB8e.js (113)
-[1205/122033.186:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
-[1205/122033.186:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
-[1205/122033.187:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
-[1205/122033.187:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[1205/122033.187:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
-[1205/122033.187:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
-[1205/122033.187:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
-[1205/122033.187:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
-[1205/122033.187:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
-[1205/122033.187:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
-[1205/122033.187:INFO:CONSOLE(0)] "Document-Policy HTTP header: Unrecognized document policy feature name include-js-call-stacks-in-crash-reports.", source: https://web.whatsapp.com/ (0)
-[1205/122034.591:ERROR:simple_version_upgrade.cc(152)] Failed to write a new fake index.
-[1205/122034.592:ERROR:simple_backend_impl.cc(739)] Simple Cache Backend: wrong file structure on disk: 8 path: C:\Users\codew\OneDrive\Desktop\own startup company projects\whatsapp-bot\WhatsappBot\New folder\whatsapp-bot-demo-purpose\.wwebjs_auth\session\Default\Service Worker\CacheStorage\0bf6ab7f94a21cdc9c1649f884333ec20f40a544\df3e000f-f72b-42b8-b55b-98bdfa9b3cb1
-[1205/122034.592:ERROR:disk_cache.cc(205)] Unable to create cache
-[1205/122034.600:INFO:CONSOLE(77)] "ErrorUtils caught an error:
+[1205/124154.426:INFO:CONSOLE(0)] "Uncaught (in promise) UnknownError: Unexpected internal error.", source: https://web.whatsapp.com/sw.js (0)
+[1205/124154.694:INFO:CONSOLE(113)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/WriB3zPbuOU.js (113)
+[1205/124155.177:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[1205/124155.177:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[1205/124155.178:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[1205/124155.178:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[1205/124155.178:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[1205/124155.178:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[1205/124155.178:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[1205/124155.178:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[1205/124155.178:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[1205/124155.178:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[1205/124155.178:INFO:CONSOLE(0)] "Document-Policy HTTP header: Unrecognized document policy feature name include-js-call-stacks-in-crash-reports.", source: https://web.whatsapp.com/ (0)
+[1205/124155.190:WARNING:backend_impl.cc(1816)] Destroying invalid entry.
+[1205/124155.191:WARNING:backend_impl.cc(1816)] Destroying invalid entry.
+[1205/124200.265:ERROR:simple_version_upgrade.cc(152)] Failed to write a new fake index.
+[1205/124200.265:ERROR:simple_backend_impl.cc(739)] Simple Cache Backend: wrong file structure on disk: 8 path: C:\Users\codew\OneDrive\Desktop\own startup company projects\whatsapp-bot\WhatsappBot\New folder\whatsapp-bot-demo-purpose\.wwebjs_auth\session\Default\Service Worker\CacheStorage\0bf6ab7f94a21cdc9c1649f884333ec20f40a544\df3e000f-f72b-42b8-b55b-98bdfa9b3cb1
+[1205/124200.266:ERROR:disk_cache.cc(205)] Unable to create cache
+[1205/124200.274:INFO:CONSOLE(77)] "ErrorUtils caught an error:
 
 Unexpected internal error.
 
 Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/y3/r/QZsume-GUVi.js (77)
-[1205/122038.744:INFO:CONSOLE(0)] "Uncaught (in promise) UnknownError: Unexpected internal error.", source: https://web.whatsapp.com/sw.js (0)
-[1205/122039.009:INFO:CONSOLE(113)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/WriB3zPbuOU.js (113)
-[1205/122040.258:INFO:CONSOLE(103)] "Uncaught (in promise) UnknownError: Unexpected internal error.", source: https://static.whatsapp.net/rsrc.php/v4/yU/r/984XuE-uJrG.js (103)
-[1205/122134.702:INFO:CONSOLE(0)] "Uncaught (in promise) UnknownError: Unexpected internal error.", source: https://web.whatsapp.com/sw.js (0)
-[1205/122134.970:INFO:CONSOLE(113)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/WriB3zPbuOU.js (113)
+[1205/124206.072:INFO:CONSOLE(103)] "Uncaught (in promise) UnknownError: Unexpected internal error.", source: https://static.whatsapp.net/rsrc.php/v4/yU/r/984XuE-uJrG.js (103)
+[1205/124301.659:INFO:CONSOLE(0)] "Uncaught (in promise) UnknownError: Unexpected internal error.", source: https://web.whatsapp.com/sw.js (0)
+[1205/124301.931:INFO:CONSOLE(113)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/WriB3zPbuOU.js (113)
