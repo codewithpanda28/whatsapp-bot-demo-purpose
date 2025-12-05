@@ -7,32 +7,8 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-// --- Health Check ---
 app.get("/", (req, res) => {
   res.send("WhatsApp Bot is running!");
-});
-
-// --- New Endpoint to send messages via n8n ---
-app.post("/send", async (req, res) => {
-  const { to, type, interactive } = req.body;
-
-  if (!to || !type || !interactive) {
-    return res.status(400).json({ error: "Invalid payload" });
-  }
-
-  try {
-    // Send message using WhatsApp Client
-    await client.sendMessage(to, {
-      type: "interactive",
-      interactive: interactive
-    });
-
-    console.log(`Message sent to ${to}`);
-    res.json({ status: "success", to });
-  } catch (error) {
-    console.error("Error sending message:", error);
-    res.status(500).json({ status: "failed", error: error.message });
-  }
 });
 
 // --- WhatsApp Client Setup ---
@@ -49,7 +25,7 @@ client.on("ready", () => {
   console.log("WhatsApp Client is ready!");
 });
 
-// --- Function to respond to incoming messages via n8n webhook ---
+// --- Function to respond to messages ---
 async function respond_to_message(msg) {
   if (!msg.body) return;
 
@@ -82,9 +58,10 @@ client.on("message_create", async (msg) => {
 
   if (msg.id.fromMe) return; // Ignore messages sent by bot itself
 
+  // Whitelisted numbers
   const white_list_responders = [
-    "919905887725@c.us",
-    "917057758867@c.us",
+    "919905887725@c.us", 
+    "917057758867@c.us", 
     "24636033122324@lid",
     "918252472186@c.us",
     "919508949406@c.us",
@@ -102,6 +79,7 @@ client.on("message_create", async (msg) => {
       }
     });
   } else {
+    // Personal message
     if (white_list_responders.includes(msg.from)) {
       respond_to_message(msg);
     }
